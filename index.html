@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    
+    <title>form</title>
+    <link rel="stylesheet" href="simple.css">
+  </head>
+  <body>
+    <div class="title">
+    <h1>Register Form</h1>
+    <p id="para">The form which contain simple detail's of user personal Informations and  highest qualifications.<br>
+    For applying job purpose. Person need to complete either B.E/B.tech in recent year </p>
+  </div><br>
+    <form action="" method="post">
+    <div class="contain">
+      <label>FirstName : </label>
+      <input type="text" class="name" placeholder="name" required="">
+      </div>
+      <br>
+      <div class="contain">
+      <label>MiddleName : </label>
+      <input type="text" class="name" placeholder="middlename" >
+      </div>
+      <br>
+      <div class="contain">
+      <label>LastName : </label>
+      <input type="text"  class="name"  placeholder="lastname" required="">
+    </div>
+    <br>
+    <div  id="radio" >
+      <label>Gender : </label>
+      <input type="radio"  id="male"  name="gender" value="male">
+      <label>Male</label>
+      <input type="radio"  id="female"  name="gender" value="female">
+      <label>Female</label>
+      <input type="radio"  id="other"  name="gender" value="others">
+      <label>Others</label>
+    </div>
+    <br>
+    <div class="contain">
+      <label>EmailId : </label>
+      <input type="text"  class="email"  placeholder="varun@example.com" required="">
+    </div>
+    <br>
+    <div class="contain">
+      <label>PhoneNumber : </label>
+      <input type="text"  class="phno"  placeholder="+91 7777774444" required="">
+    </div>
+    <br>
+    <div class="contain">
+      <label>Address : </label>
+      <br>
+      <textarea id="addr" name="address" rows="6" cols="50" required=""></textarea>
+    </div>
+    <br>
+    <div class="contain">
+      <label>Course : </label>
+      <input type="text" class="name" value="" required="">
+    </div>
+    <br>
+    <div class="contain">
+      <label>Branch : </label>
+      <select class="dropdown">
+        <option>---select---</option>
+        <option>Computer Science Engineering</option>
+        <option>Electronics and Communication Engineering</option>
+        <option>Electrical and Electronics Engineering</option>
+        <option>Information Technology</option>
+         <option>Civil Engineering</option>
+          <option>Mechanical Engineering</option>
+          <option>Others</option>
+      </select>
+    </div>
+    <br>
+    <div class="detail">
+    <p>If Others mention below</p><input type="text" >
+    </div>
+    <br>
+     <div class="contain">
+      <label>PassedOut Year :  </label>
+         <select class="dropdown">
+         <option>---select---</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+      </select>
+    </div>
+    <br>
+    <div class="contain">
+      <input type="checkbox" id="box" name="checkbox" value="checkbox" <p>Above Details are confirm.</p>
+    </div>
+    <br>
+    <div class="contain">
+     <input type="button" value="submit"><a href=""></a></input> 
+    </div>
+    <br>
+    <div class="contain">
+    <input type="reset" value="reset">
+  </div>
+    </form>
+  </body>
+</html>
